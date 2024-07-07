@@ -1,4 +1,4 @@
-module github.com/CBaier33/html-parser
+module htmlParser
 
 go 1.22.4
 
