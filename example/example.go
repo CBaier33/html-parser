@@ -3,7 +3,7 @@ package main
 import (
     "strings"
     "fmt"
-    "htmlParser"
+    "github.com/CBaier33/htmlParser"
 )
 
 

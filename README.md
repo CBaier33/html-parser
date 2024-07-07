@@ -1,4 +1,4 @@
-# html-parser
+# htmlParser
 
 A simple package which parses html and returns all links contained in the code.
 
