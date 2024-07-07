@@ -3,7 +3,7 @@ package main
 import (
     "strings"
     "fmt"
-    "html-parser"
+    "htmlParser"
 )
 
 
@@ -89,7 +89,7 @@ src="https://www.facebook.com/tr?id=1165060241122309&ev=PageView&noscript=1"
 
 func main() {
     r := strings.NewReader(exampleHtml)
-    links, err := link.Parse(r)
+    links, err := htmlParser.Parse(r)
     if err != nil {
         panic(err)
     }
